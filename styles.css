@@ -1,0 +1,18 @@
+div{
+    border: 2px solid;
+    height: 75px;
+    /* Overflow is set to  visible by default, basically allowing for overflow*/
+
+    /* This makes it so that the content is no longer visible but you can still interact with it (copy, paste)*/
+    /* overflow: hidden; */
+
+    /* Overflow clip is used with the clip margin property, allowing us to set how far the content overflows out of the box*/
+    /* overflow-clip-margin: 13px; */
+
+    /* makes it scrollable */
+    /* overflow: scroll; */
+
+    /* enables the scroll bar if needed */
+    overflow: auto;
+
+}
